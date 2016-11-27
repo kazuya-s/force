@@ -4,8 +4,8 @@ import (
 	"fmt"
 )
 
-var apiVersion = "v37.0"
-var apiVersionNumber = "37.0"
+var apiVersion = "v38.0"
+var apiVersionNumber = "38.0"
 
 var cmdApiVersion = &Command{
 	Run:   runApiVersion,
@@ -17,7 +17,7 @@ Display/Set current API version
 Examples:
 
   force apiversion
-  force apiversion 37.0
+  force apiversion 38.0
 `,
 }
 
