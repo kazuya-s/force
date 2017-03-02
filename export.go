@@ -196,9 +196,6 @@ func runExport(cmd *Command, args []string) {
 	for _, folder := range folderResult.Records {
 		if folder["DeveloperName"] != nil {
 			folderType := folder["Type"].(string)
-			if folderType == "Insights" {
-				continue
-			}
 			m, ok := folders[folderType]
 			if !ok {
 				m = make(map[string]string)

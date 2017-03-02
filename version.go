@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-var Version = "dev"
+var Version = "dev_20170302"
 
 //Dood, what
 var cmdVersion = &Command{
